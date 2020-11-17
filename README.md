@@ -16,7 +16,7 @@
 - Variables: There are no declaration keywords. Instead, variables are created and returned with the `$` symbol:
 
     ```php
-    $day = 'Monday`;
+    $day = 'Monday';
     ```
 - An `Array` in Javascript is an "indexed array" in PHP.
 
