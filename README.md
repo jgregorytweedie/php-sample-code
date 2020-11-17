@@ -18,5 +18,5 @@
     ```php
     $day = 'Monday`;
     ```
-- Arrays
-- Objects
+- An `Array` in Javascript is an "indexed array" in PHP.
+- An `Object` in Javascript is an "associative array" in PHP.
