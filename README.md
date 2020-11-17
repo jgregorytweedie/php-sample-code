@@ -19,4 +19,34 @@
     $day = 'Monday`;
     ```
 - An `Array` in Javascript is an "indexed array" in PHP.
-- An `Object` in Javascript is an "associative array" in PHP.
+
+    ```php
+    $people = array('Kevin', 'Jeremy', 'Sara');
+    $ids = array(23, 55, 12);
+    $cars = ['Honda', 'Toyota', 'Ford'];
+    $cars[3] = 'Chevy';
+    $cars[] = 'BMW';
+    ```
+
+- An `Object` in Javascript is an "associative array" in PHP. PHP's version of Objects are called Classes, which we won't cover in this course.
+
+    ```php
+    $people = [
+      22 => 'Brad',
+      44 => 'Jose', 
+      63 => 'William'
+    ];
+    $people[42] = 'Jill';
+    ```
+- Outputting content: instead of `console.log()`, PHP uses the `echo()` function (parentheses are optional) to output strings and numbers.
+
+    ```php
+    echo $people['Brad'];
+    echo $ids[22];
+    echo $people['Jill'];
+    ```
+- To log a complex data type such as an array, use the `var_dump()` function:
+
+    ```php
+    var_dump($people);
+    ```

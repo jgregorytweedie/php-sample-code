@@ -11,7 +11,7 @@ if ($_POST['submit'] == "Calculate") {
 <head>
   <meta charset="UTF-8">
   <title>Adding Machine: Answer</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/main.css">
   <style>
     main {
       max-width: 70ch;
