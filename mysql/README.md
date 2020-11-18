@@ -1,4 +1,7 @@
 # Relational Data Models
+- [phpMyAdmin Activity](phpmyadmin.md)
+- [SQL Syntax Cheat Sheet](sql-syntax.md)
+
 ## Terminology
 <dl>
   <dt>Relational Database</dt>
