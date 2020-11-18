@@ -50,3 +50,23 @@
     ```php
     var_dump($people);
     ```
+
+## Example PHP Directory Structure
+
+```
+- assets
+--- css
+--- js
+--- images
+- includes
+--- config.php
+--- functions.php
+--- head.php
+--- header.php
+--- nav.php
+--- footer.php
+- index.php
+- about.php
+- products.php
+- contact.php
+```
