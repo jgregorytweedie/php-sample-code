@@ -59,8 +59,8 @@
 --- js
 --- images
 - includes
---- config.php
---- functions.php
+--- _config.php
+--- _functions.php
 --- head.php
 --- header.php
 --- nav.php
